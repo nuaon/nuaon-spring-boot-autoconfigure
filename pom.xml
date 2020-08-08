@@ -9,27 +9,21 @@
     <description>Nuaon spring boot autoconfigure</description>
     
     <dependencies>
-        <!-- 
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-context</artifactId>
-            <version>5.2.8.RELEASE</version>
-        </dependency>
-        
+        <!--
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
             <version>2.3.2.RELEASE</version>
         </dependency>
         -->
-        
-        
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-autoconfigure</artifactId>
             <version>2.3.2.RELEASE</version>
         </dependency>
 
+        <!-- 使用@ConfigurationProperties时需要用此包生成configuration metadata（即spring-configuration-metadata.json）文件 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-configuration-processor</artifactId>
