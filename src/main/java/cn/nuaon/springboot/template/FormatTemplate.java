@@ -1,4 +1,4 @@
-package cn.nuaon.springboot;
+package cn.nuaon.springboot.template;
 
 import cn.nuaon.springboot.format.FormatProcessor;
 

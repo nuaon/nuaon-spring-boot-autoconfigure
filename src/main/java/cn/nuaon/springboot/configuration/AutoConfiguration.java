@@ -5,8 +5,8 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Import;
 
-import cn.nuaon.springboot.FormatTemplate;
 import cn.nuaon.springboot.format.FormatProcessor;
+import cn.nuaon.springboot.template.FormatTemplate;
 
 @Configuration
 @EnableConfigurationProperties(NuaonProperties.class)
