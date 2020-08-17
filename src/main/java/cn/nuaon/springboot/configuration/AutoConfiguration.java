@@ -14,8 +14,8 @@ import cn.nuaon.springboot.template.FormatTemplate;
 public class AutoConfiguration
 {
     @Bean
-    public FormatTemplate formatTemplate(FormatProcessor processor)
+    public FormatTemplate formatTemplate(FormatProcessor processor, NuaonProperties properties)
     {
-        return new FormatTemplate(processor);
+        return new FormatTemplate(processor, properties);
     }
 }

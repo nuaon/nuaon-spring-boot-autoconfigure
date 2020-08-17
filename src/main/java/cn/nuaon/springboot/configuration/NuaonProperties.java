@@ -15,7 +15,7 @@ public class NuaonProperties
     /**
      * 站点版权信息
      */
-    private String copyriht;
+    private String copyright;
 
     /**
      * 站点备案信息
@@ -41,13 +41,13 @@ public class NuaonProperties
         this.name = name;
     }
 
-    public String getCopyriht()
+    public String getCopyright()
     {
-        return copyriht;
+        return copyright;
     }
-    public void setCopyriht(String copyriht)
+    public void setCopyright(String copyright)
     {
-        this.copyriht = copyriht;
+        this.copyright = copyright;
     }
 
     public String getIcp()
@@ -75,5 +75,11 @@ public class NuaonProperties
     public void setUrlPrefix(String urlPrefix)
     {
         this.urlPrefix = urlPrefix;
+    }
+
+    @Override
+    public String toString()
+    {
+        return "NuaonProperties [name=" + name + ", copyright=" + copyright + ", icp=" + icp + ", version=" + version + ", urlPrefix=" + urlPrefix + "]";
     }
 }
